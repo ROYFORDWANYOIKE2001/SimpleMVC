@@ -25,7 +25,7 @@ class Index extends Controller
 
 	function pricing(){
 		//$this->view->css = $this->dashboad;
-		//$this->view->render('artist/pricing');
+		//$this->view->render('App/Head');
 	}
 
 

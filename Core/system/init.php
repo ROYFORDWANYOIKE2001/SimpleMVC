@@ -7,6 +7,10 @@ function api_auto_load($className){
 	if(!file_exists($fullpath)){
 		$fullpath = ROOT.LIB.$className.'.php';
 	}
+
+	if(!file_exists($fullpath)){
+		$fullpath = ROOT.MIDDLEWARE.$className.'.php';
+	}
 	
 	if(!file_exists($fullpath)){
 		$fullpath =  ROOT.MODEL.$className.'.php';
@@ -25,7 +29,6 @@ function api_auto_load($className){
 	require $fullpath;
 
 }
-
 
 $bootstrap = new Bootstrap();
 $bootstrap->init();

@@ -5,8 +5,8 @@ require_once 'path.php';
 //PATHS
 //DO NT fORGET BACKSLASH (/) after path
 //define('URL','/AudioPlug/');
-define('SITE','http://localhost/simple mvc/');
-define('URL','http://localhost/simple mvc/');
+define('SITE','http://localhost/simpleMVC/');
+define('URL','http://localhost/simpleMVC/');
 
 define('ENC_KEY','CKXH2U9RPY3EFD70TLS1ZG4N8WQBOVI6AMJ5');
 

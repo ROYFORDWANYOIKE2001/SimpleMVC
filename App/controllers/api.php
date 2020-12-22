@@ -11,6 +11,12 @@ class  Api extends Controller {
         $data = array('jeff' => 'name', 'fish' => 'Getto');
         $this->view->Json($data);
     }
+    function john($data = '',$data2 = '')
+    {
+    	echo "My name is Lucky";
+    	echo "<br>".$data;
+    	echo "<br>".$data2;
+    }
 }
 
  ?>

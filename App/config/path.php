@@ -4,6 +4,8 @@ define('LIB', './App/libs/');
 define('CONFIG', './App/config/');
 
 define('CORE_LIB', './Core/libs/');
+define('MIDDLEWARE', './Core/middleware/');
+
 define('UTIL', './App/util/');
 
 
